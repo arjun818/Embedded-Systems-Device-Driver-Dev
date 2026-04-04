@@ -20,7 +20,7 @@ void LCD_PrintString(char*);
 void LCD_SetCursor(uint8_t row, uint8_t column);
 
 /* Application configurable items */
-#define LCD_GPIO_PORT   GPIOC
+#define LCD_GPIO_PORT   GPIOD
 #define LCD_GPIO_RS     GPIO_PIN_NO_0
 #define LCD_GPIO_RW     GPIO_PIN_NO_1
 #define LCD_GPIO_EN     GPIO_PIN_NO_2

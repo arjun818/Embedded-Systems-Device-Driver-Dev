@@ -12,7 +12,7 @@ int main(){
 
     LCD_Init();
 
-    LCD_PrintString("RTC Test...");
+    LCD_PrintString("Hi Amma Acha!!");
 
 	return 0;
 }
